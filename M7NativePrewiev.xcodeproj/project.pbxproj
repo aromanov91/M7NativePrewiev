@@ -7,23 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3A08A84E250C062E0065343A /* M7NativePrewievApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A08A83B250C062C0065343A /* M7NativePrewievApp.swift */; };
-		3A08A84F250C062E0065343A /* M7NativePrewievApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A08A83B250C062C0065343A /* M7NativePrewievApp.swift */; };
-		3A08A850250C062E0065343A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A08A83C250C062C0065343A /* ContentView.swift */; };
-		3A08A851250C062E0065343A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A08A83C250C062C0065343A /* ContentView.swift */; };
-		3A08A852250C062E0065343A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A08A83D250C062E0065343A /* Assets.xcassets */; };
-		3A08A853250C062E0065343A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A08A83D250C062E0065343A /* Assets.xcassets */; };
+		3A08A865250C08BD0065343A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A08A862250C08BD0065343A /* Assets.xcassets */; };
+		3A08A866250C08BD0065343A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A08A862250C08BD0065343A /* Assets.xcassets */; };
+		3A08A867250C08BD0065343A /* M7NativePrewievApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A08A863250C08BD0065343A /* M7NativePrewievApp.swift */; };
+		3A08A868250C08BD0065343A /* M7NativePrewievApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A08A863250C08BD0065343A /* M7NativePrewievApp.swift */; };
+		3A08A869250C08BD0065343A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A08A864250C08BD0065343A /* ContentView.swift */; };
+		3A08A86A250C08BD0065343A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A08A864250C08BD0065343A /* ContentView.swift */; };
+		3A08A86C250C0E3B0065343A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A08A86B250C0E3B0065343A /* LaunchScreen.storyboard */; };
+		3A08A86D250C0E3B0065343A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A08A86B250C0E3B0065343A /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3A08A83B250C062C0065343A /* M7NativePrewievApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M7NativePrewievApp.swift; sourceTree = "<group>"; };
-		3A08A83C250C062C0065343A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		3A08A83D250C062E0065343A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A08A842250C062E0065343A /* M7NativePrewiev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = M7NativePrewiev.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A08A845250C062E0065343A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A08A84A250C062E0065343A /* M7NativePrewiev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = M7NativePrewiev.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A08A84C250C062E0065343A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A08A84D250C062E0065343A /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		3A08A862250C08BD0065343A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A08A863250C08BD0065343A /* M7NativePrewievApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = M7NativePrewievApp.swift; sourceTree = "<group>"; };
+		3A08A864250C08BD0065343A /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3A08A86B250C0E3B0065343A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A3009C7250C155F0056D393 /* M7Native */ = {isa = PBXFileReference; lastKnownFileType = folder; name = M7Native; path = ../M7Native; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,21 +51,12 @@
 		3A08A835250C062C0065343A = {
 			isa = PBXGroup;
 			children = (
-				3A08A83A250C062C0065343A /* Shared */,
+				3A3009C7250C155F0056D393 /* M7Native */,
+				3A08A861250C08BD0065343A /* Shared */,
 				3A08A844250C062E0065343A /* iOS */,
 				3A08A84B250C062E0065343A /* macOS */,
 				3A08A843250C062E0065343A /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		3A08A83A250C062C0065343A /* Shared */ = {
-			isa = PBXGroup;
-			children = (
-				3A08A83B250C062C0065343A /* M7NativePrewievApp.swift */,
-				3A08A83C250C062C0065343A /* ContentView.swift */,
-				3A08A83D250C062E0065343A /* Assets.xcassets */,
-			);
-			path = Shared;
 			sourceTree = "<group>";
 		};
 		3A08A843250C062E0065343A /* Products */ = {
@@ -77,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				3A08A845250C062E0065343A /* Info.plist */,
+				3A08A86B250C0E3B0065343A /* LaunchScreen.storyboard */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -88,6 +84,16 @@
 				3A08A84D250C062E0065343A /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		3A08A861250C08BD0065343A /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				3A08A862250C08BD0065343A /* Assets.xcassets */,
+				3A08A863250C08BD0065343A /* M7NativePrewievApp.swift */,
+				3A08A864250C08BD0065343A /* ContentView.swift */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,7 +174,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A08A852250C062E0065343A /* Assets.xcassets in Resources */,
+				3A08A865250C08BD0065343A /* Assets.xcassets in Resources */,
+				3A08A86C250C0E3B0065343A /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,7 +183,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A08A853250C062E0065343A /* Assets.xcassets in Resources */,
+				3A08A866250C08BD0065343A /* Assets.xcassets in Resources */,
+				3A08A86D250C0E3B0065343A /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,8 +195,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A08A850250C062E0065343A /* ContentView.swift in Sources */,
-				3A08A84E250C062E0065343A /* M7NativePrewievApp.swift in Sources */,
+				3A08A869250C08BD0065343A /* ContentView.swift in Sources */,
+				3A08A867250C08BD0065343A /* M7NativePrewievApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,8 +204,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A08A851250C062E0065343A /* ContentView.swift in Sources */,
-				3A08A84F250C062E0065343A /* M7NativePrewievApp.swift in Sources */,
+				3A08A86A250C08BD0065343A /* ContentView.swift in Sources */,
+				3A08A868250C08BD0065343A /* M7NativePrewievApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +263,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -308,6 +317,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -321,9 +331,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ER582ZK85C;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -342,9 +353,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ER582ZK85C;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
