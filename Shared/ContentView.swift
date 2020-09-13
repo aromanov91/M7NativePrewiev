@@ -17,11 +17,11 @@ struct ContentView: View {
                 
                 VStack {
                     
-                    M7Icon(name: .send, size: .s)
+                    M7Icon(.send, size: .s)
                     
-                    M7Icon(name: .send, size: .m)
+                    M7Icon(.send, size: .m)
                     
-                    M7Icon(name: .send, size: .l)
+                    M7Icon(.send, size: .l)
                 
                 M7Text("Текст", style: .largeTitle)
                 
