@@ -2,7 +2,7 @@
 //  M7NativePrewievApp.swift
 //  Shared
 //
-//  Created by 18391981 on 11.09.2020.
+//  Created by Alexander Romanov on 11.09.2020.
 //
 
 import SwiftUI

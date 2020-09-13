@@ -2,15 +2,21 @@
 //  ContentView.swift
 //  Shared
 //
-//  Created by 18391981 on 11.09.2020.
+//  Created by Alexander Romanov on 11.09.2020.
 //
 
 import SwiftUI
+import M7Native
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+        ZStack {
+        
+            M7Text("Текст", style: .largeTitle)
+            .padding().foregroundColor(M7Colors.onPrimary.highEmphasis)
+            
+        }.background(M7Colors.primary)
     }
 }
 
