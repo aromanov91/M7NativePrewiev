@@ -15,8 +15,17 @@ struct ContentView: View {
             
             M7Surface() {
                 
+                VStack {
+                    
+                    M7Icon(name: .send, size: .s)
+                    
+                    M7Icon(name: .send, size: .m)
+                    
+                    M7Icon(name: .send, size: .l)
+                
                 M7Text("Текст", style: .largeTitle)
                 
+                }
             }
             
             M7Background() {

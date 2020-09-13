@@ -15,8 +15,8 @@
 		3A08A86A250C08BD0065343A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A08A864250C08BD0065343A /* ContentView.swift */; };
 		3A08A86C250C0E3B0065343A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A08A86B250C0E3B0065343A /* LaunchScreen.storyboard */; };
 		3A08A86D250C0E3B0065343A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A08A86B250C0E3B0065343A /* LaunchScreen.storyboard */; };
-		3A14CB5F250CA1AC00438D36 /* M7Native.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A14CB5C250CA1AC00438D36 /* M7Native.xcassets */; };
-		3A14CB60250CA1AC00438D36 /* M7Native.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A14CB5C250CA1AC00438D36 /* M7Native.xcassets */; };
+		3A14CB5F250CA1AC00438D36 /* Icons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A14CB5C250CA1AC00438D36 /* Icons.xcassets */; };
+		3A14CB60250CA1AC00438D36 /* Icons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A14CB5C250CA1AC00438D36 /* Icons.xcassets */; };
 		3A7EF5FC250DD7AD00B77FDB /* M7Native in Frameworks */ = {isa = PBXBuildFile; productRef = 3A7EF5FB250DD7AD00B77FDB /* M7Native */; };
 		3A7EF5FE250DD7B500B77FDB /* M7Native in Frameworks */ = {isa = PBXBuildFile; productRef = 3A7EF5FD250DD7B500B77FDB /* M7Native */; };
 		3AA3641C250DD9BA0039CF28 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AA3641B250DD9B90039CF28 /* Colors.xcassets */; };
@@ -33,7 +33,7 @@
 		3A08A863250C08BD0065343A /* M7NativePrewievApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = M7NativePrewievApp.swift; sourceTree = "<group>"; };
 		3A08A864250C08BD0065343A /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3A08A86B250C0E3B0065343A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3A14CB5C250CA1AC00438D36 /* M7Native.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = M7Native.xcassets; sourceTree = "<group>"; };
+		3A14CB5C250CA1AC00438D36 /* Icons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Icons.xcassets; sourceTree = "<group>"; };
 		3A3009C7250C155F0056D393 /* M7Native */ = {isa = PBXFileReference; lastKnownFileType = folder; name = M7Native; path = ../M7Native; sourceTree = "<group>"; };
 		3AA3641B250DD9B90039CF28 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Colors.xcassets; path = ../../../Desktop/Colors.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,7 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				3AA3641B250DD9B90039CF28 /* Colors.xcassets */,
-				3A14CB5C250CA1AC00438D36 /* M7Native.xcassets */,
+				3A14CB5C250CA1AC00438D36 /* Icons.xcassets */,
 				3A08A862250C08BD0065343A /* Assets.xcassets */,
 				3A08A863250C08BD0065343A /* M7NativePrewievApp.swift */,
 				3A08A864250C08BD0065343A /* ContentView.swift */,
@@ -200,7 +200,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A14CB5F250CA1AC00438D36 /* M7Native.xcassets in Resources */,
+				3A14CB5F250CA1AC00438D36 /* Icons.xcassets in Resources */,
 				3AA3641C250DD9BA0039CF28 /* Colors.xcassets in Resources */,
 				3A08A865250C08BD0065343A /* Assets.xcassets in Resources */,
 				3A08A86C250C0E3B0065343A /* LaunchScreen.storyboard in Resources */,
@@ -211,7 +211,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A14CB60250CA1AC00438D36 /* M7Native.xcassets in Resources */,
+				3A14CB60250CA1AC00438D36 /* Icons.xcassets in Resources */,
 				3AA3641D250DD9BA0039CF28 /* Colors.xcassets in Resources */,
 				3A08A866250C08BD0065343A /* Assets.xcassets in Resources */,
 				3A08A86D250C0E3B0065343A /* LaunchScreen.storyboard in Resources */,
