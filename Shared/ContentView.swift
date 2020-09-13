@@ -11,12 +11,22 @@ import M7Native
 struct ContentView: View {
     var body: some View {
         
-        ZStack {
-        
-            M7Text("Текст", style: .largeTitle)
-            .padding().foregroundColor(M7Colors.onPrimary.highEmphasis)
+        VStack {
             
-        }.background(M7Colors.primary)
+            M7Surface() {
+                
+                M7Text("Текст", style: .largeTitle)
+                
+            }
+            
+            M7Background() {
+                
+                M7Button(action: { print("sdas") }, content: { M7Text("ddd") })
+                
+            }
+
+            
+        }
     }
 }
 
