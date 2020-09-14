@@ -21,9 +21,9 @@ struct ContentView: View {
                     
                     M7Icon(.send, size: .m)
                     
-                    M7Icon(.send, size: .l)
+                   M7Icon(.send, size: .l)
                 
-                M7Text("Текст", style: .largeTitle)
+                    M7Text("Текст", style: .largeTitle, color: .error)
                 
                 }
             }
